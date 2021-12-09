@@ -1,0 +1,20 @@
+.showcase{
+    width: 100%;
+    max-width: 100%;
+    height:20rem;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../public/images/showcase.jpg');
+    background-position: center;
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.showcase>*{
+    color: white;
+    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 1);
+}
+.showcase>h1{
+    font-size:2.5rem;
+ 
+}
